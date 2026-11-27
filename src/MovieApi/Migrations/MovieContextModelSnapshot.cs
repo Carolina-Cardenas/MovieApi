@@ -91,7 +91,7 @@ namespace MovieApi.Migrations
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("ID"));
 
-                    b.Property<string>("Lenguage")
+                    b.Property<string>("Language")
                         .IsRequired()
                         .HasColumnType("text");
 

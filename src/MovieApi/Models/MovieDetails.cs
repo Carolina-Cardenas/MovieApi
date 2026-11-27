@@ -5,7 +5,7 @@ namespace MovieApi.Models
        public int ID{get; set;}
        public string synopsis {get; set;} = string.Empty;
         
-       public string Lenguage {get; set;} = string.Empty;
+       public string Language { get; set; } = string.Empty;
 
        public decimal budget {get; set;}
 

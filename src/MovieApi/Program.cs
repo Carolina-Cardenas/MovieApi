@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using MovieApi;
-
+using MovieApi.Extensions;
 
 
 
@@ -30,5 +30,9 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
+
+app.MapControllers();
+
+app.SeedData();
 
 app.Run();
